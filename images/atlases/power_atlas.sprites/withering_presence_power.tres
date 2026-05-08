@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://rtvnq8"]
+
+[ext_resource type="Texture2D" uid="uid://ctnqc58e5lq30" path="res://images/atlases/power_atlas.sprites/withering_presence_power.png" id="1_np7ab"]
+
+[resource]
+atlas = ExtResource("1_np7ab")
+region = Rect2(0, 0, 64, 64)

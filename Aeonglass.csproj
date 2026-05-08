@@ -1,0 +1,35 @@
+﻿<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="images\monster\**" />
+    <EmbeddedResource Remove="images\monster\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\Steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>..\Steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="sts2">
+      <HintPath>..\Steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\sts2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\atlases\card_atlas.sprites\status\beta\" />
+    <Folder Include="images\atlases\power_atlas.sprites\" />
+    <Folder Include="images\map\placeholder\" />
+    <Folder Include="images\packed\card_portraits\status\beta\" />
+    <Folder Include="images\powers\" />
+	<Folder Include="images\monsters\" />
+    <Folder Include="images\ui\run_history\" />
+    <Folder Include="scenes\creature_visuals\" />
+    <Folder Include="src\Core\Models\Encounters\" />
+    <Folder Include="src\Core\Models\Monsters\" />
+    <Folder Include="src\Core\Models\Powers\" />
+  </ItemGroup>
+</Project>

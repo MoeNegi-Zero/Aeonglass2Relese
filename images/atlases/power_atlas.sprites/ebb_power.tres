@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bfbweq8"]
+
+[ext_resource type="Texture2D" uid="uid://5xej0ba42c4h" path="res://images/atlases/power_atlas.sprites/ebb_power.png" id="1_kmihq"]
+
+[resource]
+atlas = ExtResource("1_kmihq")
+region = Rect2(0, 3, 63, 59)
+margin = Rect2(1, 1, 1, 5)
