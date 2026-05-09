@@ -2,10 +2,13 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using MegaCrit.Sts2.Core.Audio;
 using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Context;
 using MegaCrit.Sts2.Core.Entities.Ascension;
 using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Helpers;
+using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.MonsterMoves.Intents;
 using MegaCrit.Sts2.Core.MonsterMoves.MonsterMoveStateMachine;
@@ -54,11 +57,12 @@ public sealed class Aeonglass : MonsterModel
 	public override async Task AfterAddedToRoom()
 	{
 		await base.AfterAddedToRoom();
-		foreach (Creature item in Creature.CombatState.GetOpponentsOf(Creature))
+		foreach (Player player in Creature.CombatState.Players)
 		{
 			WitheringPresencePower witheringPresencePower = (WitheringPresencePower)ModelDb.Power<WitheringPresencePower>().ToMutable();
-			witheringPresencePower.Target = item;
+			witheringPresencePower.Target = player.Creature;
 			//await PowerCmd.Apply(new ThrowingPlayerChoiceContext(), witheringPresencePower, base.Creature, 4m, base.Creature, null);
+
 			await PowerCmd.Apply(witheringPresencePower, Creature, 4m, Creature, null);
         }
 		//await PowerCmd.Apply<ArtifactPower>(new ThrowingPlayerChoiceContext(), base.Creature, 3m, base.Creature, null);
@@ -67,7 +71,7 @@ public sealed class Aeonglass : MonsterModel
 
 	public override Task AfterDeath(PlayerChoiceContext choiceContext, Creature creature, bool wasRemovalPrevented, float deathAnimLength)
 	{
-		if (creature != base.Creature)
+		if (creature != Creature)
 		{
 			return Task.CompletedTask;
 		}
@@ -78,7 +82,7 @@ public sealed class Aeonglass : MonsterModel
 	protected override MonsterMoveStateMachine GenerateMoveStateMachine()
 	{
 		List<MonsterState> list = new List<MonsterState>();
-		MoveState moveState = new MoveState("EBB_MOVE", EbbMove, new SingleAttackIntent(EbbDamage), new BuffIntent());
+		MoveState moveState = new MoveState("EBB_MOVE", EbbMove, new SingleAttackIntent(EbbDamage), new DebuffIntent());
 		MoveState moveState2 = new MoveState("EYE_LASERS_MOVE", EyeLasersMove, new MultiAttackIntent(EyeLasersDamage, EyeLasersRepeat));
 		MoveState moveState3 = new MoveState("INCREASING_INTENSITY_MOVE", IncreasingIntensityMove, new BuffIntent(), new DefendIntent());
 		moveState.FollowUpState = moveState2;

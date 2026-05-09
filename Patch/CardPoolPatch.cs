@@ -5,7 +5,7 @@ using MegaCrit.Sts2.Core.Models.Cards;
 using System.Linq;
 
 [HarmonyPatch(typeof(StatusCardPool), "GenerateAllCards")]
-public static class SilentCardPoolPatch
+public static class StatusCardPoolPatch
 {
 	static void Postfix(ref CardModel[] __result)
 	{

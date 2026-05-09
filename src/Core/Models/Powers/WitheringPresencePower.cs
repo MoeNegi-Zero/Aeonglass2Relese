@@ -20,26 +20,27 @@ public sealed class WitheringPresencePower : PowerModel
 
 	public override PowerStackType StackType => PowerStackType.Counter;
 
-	public override int DisplayAmount => base.DynamicVars["CardsLeft"].IntValue;
+	public override int DisplayAmount => DynamicVars["CardsLeft"].IntValue;
 
-	//public override PowerInstanceType InstanceType => PowerInstanceType.Instanced;
+    public override bool IsInstanced => true;
+    //public override PowerInstanceType InstanceType => PowerInstanceType.Instanced;
 
-	protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("CardsLeft", 4m)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("CardsLeft", 4m)];
 
 	protected override IEnumerable<IHoverTip> ExtraHoverTips => HoverTipFactory.FromCardWithCardHoverTips<Wither>();
 
 	public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
 	{
-		if (cardPlay.Card.Owner == base.Target.Player && cardPlay.Card.Type != CardType.Status)
+		if (cardPlay.Card.Owner == Target.Player && cardPlay.Card.Type != CardType.Status)
 		{
-			base.DynamicVars["CardsLeft"].BaseValue--;
+			DynamicVars["CardsLeft"].BaseValue--;
 			InvokeDisplayAmountChanged();
-			if (base.DynamicVars["CardsLeft"].IntValue <= 0)
+			if (DynamicVars["CardsLeft"].IntValue <= 0)
 			{
 				await Cmd.Wait(0.5f);
 				await CardPileCmd.AddToCombatAndPreview<Wither>([cardPlay.Card.Owner.Creature], PileType.Hand, 1, false);
 				Flash();
-				base.DynamicVars["CardsLeft"].BaseValue = 4m;
+				DynamicVars["CardsLeft"].BaseValue = 4m;
 				InvokeDisplayAmountChanged();
 			}
 		}

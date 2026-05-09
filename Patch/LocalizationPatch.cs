@@ -41,5 +41,13 @@ public static class LocalizationPatch
             ["AEONGLASS.moves.INCREASING_INTENSITY.title"]= "加大力度",
             ["AEONGLASS.name"]= "永世沙漏"
         });
+
+		var encountersTable = LocManager.Instance.GetTable("encounters");
+
+		encountersTable.MergeWith(new Dictionary<string, string>
+		{
+            ["AEONGLASS_BOSS.loss"]= "[gold]{encounter}[/gold]受够了{character}的侵扰。",
+			["AEONGLASS_BOSS.title"]= "永世沙漏"
+        });
     }
 }

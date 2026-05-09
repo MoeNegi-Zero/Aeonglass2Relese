@@ -12,7 +12,7 @@ public sealed class AeonglassBoss : EncounterModel
 
 	public override MegaSkeletonDataResource? BossNodeSpineResource => null;
 
-	public override string BossNodePath => "res://images/map/placeholder/" + base.Id.Entry.ToLowerInvariant() + "_icon";
+	public override string BossNodePath => "res://images/map/placeholder/" + Id.Entry.ToLowerInvariant() + "_icon";
 
 	public override string CustomBgm => "event:/music/act3_boss_queen";
 
