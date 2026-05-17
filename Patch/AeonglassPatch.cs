@@ -14,12 +14,12 @@ using System.Text.Json.Serialization;
 [HarmonyPatch(typeof(Glory))]
 public static class AeonglassPatch
 {
-    private static bool? _shouldGenerateDoormakerBoss;
+    public static bool? _shouldGenerateDoormakerBoss;
 
     private class ShouldGenerateDoormakerBossConfig
     {
         [JsonPropertyName("should_generate_doormaker_boss")]
-        public bool? shouldGenerateDoormakerBoss;
+        public bool? shouldGenerateDoormakerBoss { get; set; }
     }
 
     private static void LoadConfig()
