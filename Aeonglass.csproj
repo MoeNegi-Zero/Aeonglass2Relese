@@ -28,8 +28,5 @@
 	<Folder Include="images\monsters\" />
     <Folder Include="images\ui\run_history\" />
     <Folder Include="scenes\creature_visuals\" />
-    <Folder Include="src\Core\Models\Encounters\" />
-    <Folder Include="src\Core\Models\Monsters\" />
-    <Folder Include="src\Core\Models\Powers\" />
   </ItemGroup>
 </Project>

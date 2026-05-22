@@ -7,12 +7,48 @@
       "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\aeonglasspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\patch\\localizationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\localizationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\powers\\witheringpresencepowerv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\powers\\witheringpresencepowerv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\encounters\\aeonglassbossv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\encounters\\aeonglassbossv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\monsters\\aeonglassv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\monsters\\aeonglassv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\monsters\\aeonglass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\monsters\\aeonglass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\cards\\witherv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\cards\\witherv106.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\powers\\witheringpresencepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\powers\\witheringpresencepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\encounters\\aeonglassboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\encounters\\aeonglassboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\patch\\cardpoolpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\cardpoolpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\patch\\witherturnendpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\witherturnendpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\nodes\\combat\\ncreaturevisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\nodes\\combat\\ncreaturevisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\powers\\ebbpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +63,8 @@
       "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\patch\\localizationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\localizationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\src\\core\\models\\encounters\\aeonglassboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:src\\core\\models\\encounters\\aeonglassboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\aeonglass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:aeonglass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\patch\\cardpoolpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\cardpoolpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|d:\\aeonglass\\patch\\witherturnendpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9148156-2F43-4CD0-8E0A-CD8EAA4AF984}|Aeonglass.csproj|solutionrelative:patch\\witherturnendpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +74,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NCreatureVisuals.cs",
+              "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs",
+              "ToolTip": "D:\\aeonglass\\src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs",
+              "RelativeToolTip": "src\\Core\\Nodes\\Combat\\NCreatureVisuals.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T01:52:50.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WitheringPresencePowerV106.cs",
+              "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Powers\\WitheringPresencePowerV106.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Models\\Powers\\WitheringPresencePowerV106.cs",
+              "ToolTip": "D:\\aeonglass\\src\\Core\\Models\\Powers\\WitheringPresencePowerV106.cs",
+              "RelativeToolTip": "src\\Core\\Models\\Powers\\WitheringPresencePowerV106.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T01:51:24.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WitherV106.cs",
+              "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Cards\\WitherV106.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Models\\Cards\\WitherV106.cs",
+              "ToolTip": "D:\\aeonglass\\src\\Core\\Models\\Cards\\WitherV106.cs",
+              "RelativeToolTip": "src\\Core\\Models\\Cards\\WitherV106.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T01:41:08.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AeonglassV106.cs",
+              "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Monsters\\AeonglassV106.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Models\\Monsters\\AeonglassV106.cs",
+              "ToolTip": "D:\\aeonglass\\src\\Core\\Models\\Monsters\\AeonglassV106.cs",
+              "RelativeToolTip": "src\\Core\\Models\\Monsters\\AeonglassV106.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAYwJQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T01:35:22.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Aeonglass.csproj",
+              "DocumentMoniker": "D:\\aeonglass\\Aeonglass.csproj",
+              "RelativeDocumentMoniker": "Aeonglass.csproj",
+              "ToolTip": "D:\\aeonglass\\Aeonglass.csproj",
+              "RelativeToolTip": "Aeonglass.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvyIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-08T03:54:42.249Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 10,
@@ -64,9 +148,10 @@
               "RelativeDocumentMoniker": "Patch\\WitherTurnEndPatch.cs",
               "ToolTip": "D:\\aeonglass\\Patch\\WitherTurnEndPatch.cs",
               "RelativeToolTip": "Patch\\WitherTurnEndPatch.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T06:28:13.848Z"
+              "WhenOpened": "2026-05-08T06:28:13.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,25 +161,27 @@
               "RelativeDocumentMoniker": "Patch\\CardPoolPatch.cs",
               "ToolTip": "D:\\aeonglass\\Patch\\CardPoolPatch.cs",
               "RelativeToolTip": "Patch\\CardPoolPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T05:33:54.539Z"
+              "WhenOpened": "2026-05-08T05:33:54.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "LocalizationPatch.cs",
               "DocumentMoniker": "D:\\aeonglass\\Patch\\LocalizationPatch.cs",
               "RelativeDocumentMoniker": "Patch\\LocalizationPatch.cs",
               "ToolTip": "D:\\aeonglass\\Patch\\LocalizationPatch.cs",
               "RelativeToolTip": "Patch\\LocalizationPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T05:08:47.552Z"
+              "WhenOpened": "2026-05-08T05:08:47.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "MainFile.cs",
               "DocumentMoniker": "D:\\aeonglass\\Patch\\MainFile.cs",
               "RelativeDocumentMoniker": "Patch\\MainFile.cs",
@@ -112,14 +199,14 @@
               "RelativeDocumentMoniker": "Patch\\AeonglassPatch.cs",
               "ToolTip": "D:\\aeonglass\\Patch\\AeonglassPatch.cs",
               "RelativeToolTip": "Patch\\AeonglassPatch.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAmwLcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T04:39:31.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "EbbPower.cs",
               "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Powers\\EbbPower.cs",
               "RelativeDocumentMoniker": "src\\Core\\Models\\Powers\\EbbPower.cs",
@@ -127,11 +214,12 @@
               "RelativeToolTip": "src\\Core\\Models\\Powers\\EbbPower.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvyQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T04:18:22Z"
+              "WhenOpened": "2026-05-08T04:18:22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Wither.cs",
               "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Cards\\Wither.cs",
               "RelativeDocumentMoniker": "src\\Core\\Models\\Cards\\Wither.cs",
@@ -143,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "WitheringPresencePower.cs",
               "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Powers\\WitheringPresencePower.cs",
               "RelativeDocumentMoniker": "src\\Core\\Models\\Powers\\WitheringPresencePower.cs",
@@ -151,43 +239,47 @@
               "RelativeToolTip": "src\\Core\\Models\\Powers\\WitheringPresencePower.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T03:59:10.313Z"
+              "WhenOpened": "2026-05-08T03:59:10.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Aeonglass.cs",
               "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Monsters\\Aeonglass.cs",
               "RelativeDocumentMoniker": "src\\Core\\Models\\Monsters\\Aeonglass.cs",
               "ToolTip": "D:\\aeonglass\\src\\Core\\Models\\Monsters\\Aeonglass.cs",
               "RelativeToolTip": "src\\Core\\Models\\Monsters\\Aeonglass.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAhwEwAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwDwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T03:58:13.753Z"
+              "WhenOpened": "2026-05-08T03:58:13.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AeonglassBoss.cs",
               "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Encounters\\AeonglassBoss.cs",
               "RelativeDocumentMoniker": "src\\Core\\Models\\Encounters\\AeonglassBoss.cs",
               "ToolTip": "D:\\aeonglass\\src\\Core\\Models\\Encounters\\AeonglassBoss.cs",
               "RelativeToolTip": "src\\Core\\Models\\Encounters\\AeonglassBoss.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T03:56:31.789Z"
+              "WhenOpened": "2026-05-08T03:56:31.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Aeonglass.csproj",
-              "DocumentMoniker": "D:\\aeonglass\\Aeonglass.csproj",
-              "RelativeDocumentMoniker": "Aeonglass.csproj",
-              "ToolTip": "D:\\aeonglass\\Aeonglass.csproj",
-              "RelativeToolTip": "Aeonglass.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvyIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-08T03:54:42.249Z"
+              "DocumentIndex": 3,
+              "Title": "AeonglassBossV106.cs",
+              "DocumentMoniker": "D:\\aeonglass\\src\\Core\\Models\\Encounters\\AeonglassBossV106.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Models\\Encounters\\AeonglassBossV106.cs",
+              "ToolTip": "D:\\aeonglass\\src\\Core\\Models\\Encounters\\AeonglassBossV106.cs",
+              "RelativeToolTip": "src\\Core\\Models\\Encounters\\AeonglassBossV106.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T01:54:19.477Z",
+              "EditorCaption": ""
             }
           ]
         }
