@@ -110,7 +110,7 @@ public sealed class AeonglassV106 : MonsterModel
 		List<MonsterState> list = new List<MonsterState>();
 		MoveState moveState = new MoveState("EBB_MOVE", EbbMove, new SingleAttackIntent(EbbDamage), new DebuffIntent());
 		MoveState moveState2 = new MoveState("EYE_LASERS_MOVE", EyeLasersMove, new MultiAttackIntent(EyeLasersDamage, EyeLasersRepeat));
-		MoveState moveState3 = new MoveState("INCREASING_INTENSITY_MOVE", IncreasingIntensityMove, new BuffIntent(), new DefendIntent());
+		MoveState moveState3 = new MoveState("INCREASING_INTENSITY_MOVE", IncreasingIntensityMove, new StatusIntent(WitherAmount), new BuffIntent(), new DefendIntent());
 		moveState.FollowUpState = moveState2;
 		moveState2.FollowUpState = moveState3;
 		moveState3.FollowUpState = moveState;
