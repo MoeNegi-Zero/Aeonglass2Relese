@@ -148,7 +148,7 @@ public sealed class AeonglassV106 : MonsterModel
             {
                 if (allCard is WitherV106 card)
                 {
-                    CardCmd.Upgrade(card, CardPreviewStyle.None);
+					card.FakeUpgrade();
                 }
             }
         }
@@ -167,7 +167,7 @@ public sealed class AeonglassV106 : MonsterModel
         }
         for (int i = 0; i < WitherUpgradeCount; i++)
         {
-            CardCmd.Upgrade(card2, CardPreviewStyle.None);
+            card2.FakeUpgrade();
         }
         return Task.CompletedTask;
     }

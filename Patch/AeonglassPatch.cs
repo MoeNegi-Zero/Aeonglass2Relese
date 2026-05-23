@@ -4,6 +4,7 @@ using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Acts;
+using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Encounters;
 using MegaCrit.Sts2.Core.Models.Powers;
 using System;
@@ -139,20 +140,6 @@ public static class AeonglassIconPatch
             }
         }
     }
-
-    /*
-    [HarmonyPatch("GetImagePath")]
-    [HarmonyPostfix]
-    static void GetImagePath(ref string? __result)
-    {
-        if (__result != null)
-        {
-            if (__result.Contains("withering_presence_power_v"))
-            {
-                __result.Replace("withering_presence_power_v106", "withering_presence_power");
-            }
-        }
-    }*/
 }
 
 [HarmonyPatch(typeof(PowerModel))]
@@ -185,6 +172,23 @@ public static class WitheringPresencePowerIconPatch
         if (__instance is WitheringPresencePowerV106)
         {
             __result = __result.Replace(__instance.Id.Entry.ToLowerInvariant(), "withering_presence_power");
+        }
+    }
+}
+
+[HarmonyPatch(typeof(CardModel))]
+public static class WitherV106TitlePatch
+{
+    [HarmonyPatch("get_Title")]
+    [HarmonyPostfix]
+    static void WitherV106TitlePostfix(CardModel __instance, ref string __result)
+    {
+        if (__instance is WitherV106 card)
+        {
+            if (card.FakeUpgradeLevel > 0)
+            {
+                __result= $"{__result}+{card.FakeUpgradeLevel}";
+            }
         }
     }
 }

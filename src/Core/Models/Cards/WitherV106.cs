@@ -14,7 +14,22 @@ public sealed class WitherV106 : CardModel
 {
     public override string PortraitPath => ImageHelper.GetImagePath($"atlases/card_atlas.sprites/{Pool.Title.ToLowerInvariant()}/wither.tres");
 
-    public override int MaxUpgradeLevel => int.MaxValue;
+    private int _fakeUpgradeLevel;
+
+    public int FakeUpgradeLevel
+    {
+        get
+        {
+            return _fakeUpgradeLevel;
+        }
+        set
+        {
+            AssertMutable();
+            _fakeUpgradeLevel = value;
+        }
+    }
+
+    public override int MaxUpgradeLevel => 0;
 
 	protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(3m, ValueProp.Unpowered | ValueProp.Move)];
 
@@ -31,9 +46,10 @@ public sealed class WitherV106 : CardModel
 	{
 	}
 
-    protected override void OnUpgrade()
+    public void FakeUpgrade()
     {
-        base.DynamicVars.Damage.UpgradeValueBy(3m);
+        FakeUpgradeLevel++;
+        DynamicVars.Damage.UpgradeValueBy(3m);
     }
 
     public override async Task OnTurnEndInHand(PlayerChoiceContext choiceContext)
