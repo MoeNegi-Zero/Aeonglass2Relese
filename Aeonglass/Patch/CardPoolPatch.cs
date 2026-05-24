@@ -5,12 +5,12 @@ using MegaCrit.Sts2.Core.Models.Cards;
 using System.Linq;
 
 [HarmonyPatch(typeof(StatusCardPool), "GenerateAllCards")]
-public static class StatusCardPoolPatch
+public static class CardPoolPatch
 {
 	static void Postfix(ref CardModel[] __result)
 	{
 		var cards = __result.ToList();
-		cards.Add((bool)AeonglassPatch._aeonglassV106? ModelDb.Card<WitherV106>():ModelDb.Card<Wither>());
+		cards.Add((bool)ConfigFile._aeonglassV106? ModelDb.Card<WitherV106>():ModelDb.Card<Wither>());
 		__result = cards.ToArray();
 	}
 }

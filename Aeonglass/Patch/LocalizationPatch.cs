@@ -60,5 +60,22 @@ public static class LocalizationPatch
             ["AEONGLASS_BOSS_V106.loss"] = "[gold]{encounter}[/gold]受够了{character}的侵扰。",
             ["AEONGLASS_BOSS_V106.title"] = "永世沙漏"
         });
+
+        var relicsTable = LocManager.Instance.GetTable("relics");
+
+        relicsTable.MergeWith(new Dictionary<string, string>
+        {
+            ["FISHING_ROD.description"] = "每[blue]{Combats}[/blue]场普通战斗，随机[gold]升级[/gold]你[gold]牌组[/gold]中的一张牌。",
+            ["FISHING_ROD.flavor"] = "[red]这个遗物的细节将在未来揭晓……[/red]",
+            ["FISHING_ROD.title"] = "钓鱼竿",
+            ["KALEIDOSCOPE.description"] = "拾起时，获得[blue]{Cards}[/blue]次来自其他角色的卡牌奖励。",
+            ["KALEIDOSCOPE.eventDescription"] = "获得[blue]{Cards}[/blue]次来自其他角色的卡牌奖励。",
+            ["KALEIDOSCOPE.flavor"] = "[red]这个遗物的细节将在未来揭晓……[/red]",
+            ["KALEIDOSCOPE.title"] = "万花筒",
+            ["SILKEN_TRESS.description"] = (bool)ConfigFile._newRelicsV106 ? "拾起时，失去所有[gold]金币[/gold]。为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。" : "为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。",
+            ["SILKEN_TRESS.eventDescription"] = (bool)ConfigFile._newRelicsV106 ? "失去所有[gold]金币[/gold]。为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。" : "为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。",
+            ["SILKEN_TRESS.flavor"] = "[red]这个遗物的细节将在未来揭晓……[/red]",
+            ["SILKEN_TRESS.title"] = "华美发束"
+        });
     }
 }

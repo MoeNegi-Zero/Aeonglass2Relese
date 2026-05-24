@@ -11,7 +11,7 @@ using System.Reflection.Emit;
 using System.Threading.Tasks;
 
 [HarmonyPatch]
-public static class Patch_DoTurnEnd_WitherToHand
+public static class WitherTurnEndPatch
 {
     // 指定 Patch MoveNext 方法
     static MethodBase TargetMethod()
@@ -35,7 +35,7 @@ public static class Patch_DoTurnEnd_WitherToHand
 
         // 获取我们自定义的 async Add 方法
         var addWitherMethod = AccessTools.Method(
-            typeof(Patch_DoTurnEnd_WitherToHand),
+            typeof(WitherTurnEndPatch),
             nameof(AddWitherToHandAsync)
         );
 
