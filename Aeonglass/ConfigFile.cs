@@ -12,23 +12,23 @@ using System.Threading.Tasks;
 public static class ConfigFile
 {
     public static bool? _shouldGenerateDoormakerBoss;
-    public static bool? _aeonglassV106;
+    public static bool? _aeonglassV107;
     public static bool? _shouldActivateNewRelics;
-    public static bool? _newRelicsV106;
+    public static bool? _newRelicsV107;
 
     private class Config
     {
         [JsonPropertyName("should_generate_doormaker_boss")]
         public bool? shouldGenerateDoormakerBoss { get; set; }
 
-        [JsonPropertyName("aeonglass_v106")]
-        public bool? aeonglassV106 { get; set; }
+        [JsonPropertyName("aeonglass_v107")]
+        public bool? aeonglassV107 { get; set; }
 
         [JsonPropertyName("should_activate_new_relics")]
         public bool? shouldActivateNewRelics { get; set; }
 
-        [JsonPropertyName("new_relics_v106")]
-        public bool? newRelicsV106 { get; set; }
+        [JsonPropertyName("new_relics_v107")]
+        public bool? newRelicsV107 { get; set; }
     }
 
     public static void LoadConfig()
@@ -55,9 +55,9 @@ public static class ConfigFile
         {
             var config = JsonSerializer.Deserialize<Config>(File.ReadAllText(jsonPath));
             _shouldGenerateDoormakerBoss = config?.shouldGenerateDoormakerBoss ?? false;
-            _aeonglassV106 = config?.aeonglassV106 ?? true;
+            _aeonglassV107 = config?.aeonglassV107 ?? true;
             _shouldActivateNewRelics = config?.shouldActivateNewRelics ?? true;
-            _newRelicsV106 = config?.newRelicsV106 ?? true;
+            _newRelicsV107 = config?.newRelicsV107 ?? true;
         }
         catch (Exception e)
         {
@@ -69,8 +69,8 @@ public static class ConfigFile
     private static void LoadDefalutConfig()
     {
         _shouldGenerateDoormakerBoss = false;
-        _aeonglassV106 = true;
+        _aeonglassV107 = true;
         _shouldActivateNewRelics = true;
-        _newRelicsV106 = true;
+        _newRelicsV107 = true;
     }
 }

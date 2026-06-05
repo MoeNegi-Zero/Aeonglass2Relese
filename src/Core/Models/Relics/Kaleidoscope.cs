@@ -30,6 +30,7 @@ public sealed class Kaleidoscope : RelicModel
     public override async Task AfterObtained()
     {
         List<Reward> list = new List<Reward>();
+        CardCreationOptions rerollOptions = CardCreationOptions.ForNonCombatWithDefaultOdds(Array.Empty<CardModel>());
         for (int i = 0; i < base.DynamicVars.Cards.IntValue; i++)
         {
             List<CardModel> list2 = new List<CardModel>();
@@ -40,7 +41,7 @@ public sealed class Kaleidoscope : RelicModel
                 CardCreationOptions options = new CardCreationOptions([item], CardCreationSource.Other, CardRarityOddsType.RegularEncounter).WithFlags(CardCreationFlags.NoCardPoolModifications);
                 list2.Add(CardFactory.CreateForReward(base.Owner, 1, options).First().Card);
             }
-            list.Add(new CardReward(list2, CardCreationSource.Other, base.Owner));
+            list.Add(new CardReward(list2, CardCreationSource.Other, base.Owner, rerollOptions));
         }
         await RewardsCmd.OfferCustom(base.Owner, list);
     }

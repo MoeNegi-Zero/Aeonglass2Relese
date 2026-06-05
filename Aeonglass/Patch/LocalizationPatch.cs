@@ -34,6 +34,9 @@ public static class LocalizationPatch
             ["WITHERING_PRESENCE_POWER_V106.description"] = "你每打出[blue]6[/blue]张牌，将一张[gold]凋萎[/gold]加入你的[gold]手牌[/gold]，并将所有[gold]凋零[/gold]牌的伤害增加[blue]3[/blue]。",
             ["WITHERING_PRESENCE_POWER_V106.smartDescription"] = "你每打出[blue]6[/blue]张牌，将一张[gold]凋萎[/gold]加入你的[gold]手牌[/gold]，并将所有[gold]凋零[/gold]牌的伤害增加[blue]3[/blue]。",
             ["WITHERING_PRESENCE_POWER_V106.title"] = "凋萎存在",
+            ["WITHERING_PRESENCE_POWER_V107.description"] = "你每打出[blue]6[/blue]张牌，将一张[gold]凋萎[/gold]加入你的[gold]手牌[/gold]，并将所有[gold]凋零[/gold]牌的伤害增加[blue]3[/blue]。",
+            ["WITHERING_PRESENCE_POWER_V107.smartDescription"] = "你每打出[blue]6[/blue]张牌，将一张[gold]凋萎[/gold]加入你的[gold]手牌[/gold]，并将所有[gold]凋零[/gold]牌的伤害增加[blue]3[/blue]。",
+            ["WITHERING_PRESENCE_POWER_V107.title"] = "凋萎存在",
         });
 
 		var monstersTable = LocManager.Instance.GetTable("monsters");
@@ -48,7 +51,11 @@ public static class LocalizationPatch
             ["AEONGLASS_V106.moves.EBB.title"] = "消退",
             ["AEONGLASS_V106.moves.EYE_LASERS.title"] = "眼部激光",
             ["AEONGLASS_V106.moves.INCREASING_INTENSITY.title"] = "加大力度",
-            ["AEONGLASS_V106.name"] = "永世沙漏"
+            ["AEONGLASS_V106.name"] = "永世沙漏",
+            ["AEONGLASS_V107.moves.EBB.title"] = "消退",
+            ["AEONGLASS_V107.moves.EYE_LASERS.title"] = "眼部激光",
+            ["AEONGLASS_V107.moves.INCREASING_INTENSITY.title"] = "加大力度",
+            ["AEONGLASS_V107.name"] = "永世沙漏"
         });
 
 		var encountersTable = LocManager.Instance.GetTable("encounters");
@@ -58,7 +65,9 @@ public static class LocalizationPatch
             ["AEONGLASS_BOSS.loss"]= "[gold]{encounter}[/gold]受够了{character}的侵扰。",
 			["AEONGLASS_BOSS.title"]= "永世沙漏",
             ["AEONGLASS_BOSS_V106.loss"] = "[gold]{encounter}[/gold]受够了{character}的侵扰。",
-            ["AEONGLASS_BOSS_V106.title"] = "永世沙漏"
+            ["AEONGLASS_BOSS_V106.title"] = "永世沙漏",
+            ["AEONGLASS_BOSS_V107.loss"] = "[gold]{encounter}[/gold]受够了{character}的侵扰。",
+            ["AEONGLASS_BOSS_V107.title"] = "永世沙漏"
         });
 
         var relicsTable = LocManager.Instance.GetTable("relics");
@@ -72,8 +81,8 @@ public static class LocalizationPatch
             ["KALEIDOSCOPE.eventDescription"] = "获得[blue]{Cards}[/blue]次来自其他角色的卡牌奖励。",
             ["KALEIDOSCOPE.flavor"] = "[red]这个遗物的细节将在未来揭晓……[/red]",
             ["KALEIDOSCOPE.title"] = "万花筒",
-            ["SILKEN_TRESS.description"] = (bool)ConfigFile._newRelicsV106 ? "拾起时，失去所有[gold]金币[/gold]。为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。" : "为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。",
-            ["SILKEN_TRESS.eventDescription"] = (bool)ConfigFile._newRelicsV106 ? "失去所有[gold]金币[/gold]。为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。" : "为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。",
+            ["SILKEN_TRESS.description"] = (bool)ConfigFile._newRelicsV107 ? "拾起时，失去所有[gold]金币[/gold]。为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。" : "为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。",
+            ["SILKEN_TRESS.eventDescription"] = (bool)ConfigFile._newRelicsV107 ? "失去所有[gold]金币[/gold]。为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。" : "为第一次卡牌奖励中的所有牌[gold]附魔[/gold]：[purple]华彩[/purple]。",
             ["SILKEN_TRESS.flavor"] = "[red]这个遗物的细节将在未来揭晓……[/red]",
             ["SILKEN_TRESS.title"] = "华美发束"
         });

@@ -41,7 +41,7 @@ public sealed class SilkenTress : RelicModel
     }
     public override async Task AfterObtained()
     {
-        if((bool)ConfigFile._newRelicsV106) await PlayerCmd.LoseGold(base.Owner.Gold, base.Owner);
+        if((bool)ConfigFile._newRelicsV107) await PlayerCmd.LoseGold(base.Owner.Gold, base.Owner);
     }
 
     public override bool TryModifyCardRewardOptionsLate(Player player, List<CardCreationResult> cardRewards, CardCreationOptions options)

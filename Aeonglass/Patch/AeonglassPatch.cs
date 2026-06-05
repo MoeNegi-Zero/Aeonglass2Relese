@@ -24,7 +24,7 @@ public static class AeonglassPatch
 		bool shouldGenerate = ConfigFile._shouldGenerateDoormakerBoss.GetValueOrDefault(false);
 
 		var list = __result.ToList();
-		EncounterModel aeonglassModel = (bool)ConfigFile._aeonglassV106 ? ModelDb.Encounter<AeonglassBossV106>() : ModelDb.Encounter<AeonglassBoss>();
+		EncounterModel aeonglassModel = (bool)ConfigFile._aeonglassV107 ? ModelDb.Encounter<AeonglassBossV107>() : ModelDb.Encounter<AeonglassBoss>();
 
 		if (shouldGenerate)
 		{
@@ -53,7 +53,7 @@ public static class AeonglassPatch
 		bool shouldGenerate = ConfigFile._shouldGenerateDoormakerBoss.GetValueOrDefault(false);
 
 		var list = __result.ToList();
-		EncounterModel aeonglassModel = (bool)ConfigFile._aeonglassV106 ? ModelDb.Encounter<AeonglassBossV106>() : ModelDb.Encounter<AeonglassBoss>();
+		EncounterModel aeonglassModel = (bool)ConfigFile._aeonglassV107 ? ModelDb.Encounter<AeonglassBossV107>() : ModelDb.Encounter<AeonglassBoss>();
 
 		if (shouldGenerate)
 		{
@@ -100,7 +100,7 @@ public static class WitheringPresencePowerIconPatch
 	[HarmonyPostfix]
 	static void PackedIconPathPostfix(PowerModel __instance, ref string __result)
 	{
-		if (__instance is WitheringPresencePowerV106)
+		if (__instance is WitheringPresencePowerV106 || __instance is WitheringPresencePowerV107)
 		{
 			__result = __result.Replace(__instance.Id.Entry.ToLowerInvariant(), "withering_presence_power");
 		}
@@ -110,7 +110,7 @@ public static class WitheringPresencePowerIconPatch
 	[HarmonyPostfix]
 	static void BigIconPathPostfix(PowerModel __instance, ref string __result)
 	{
-		if (__instance is WitheringPresencePowerV106)
+		if (__instance is WitheringPresencePowerV106 || __instance is WitheringPresencePowerV107)
 		{
 			__result = __result.Replace(__instance.Id.Entry.ToLowerInvariant(), "withering_presence_power");
 		}
@@ -120,7 +120,7 @@ public static class WitheringPresencePowerIconPatch
 	[HarmonyPostfix]
 	static void BigBetaIconPathPostfix(PowerModel __instance, ref string __result)
 	{
-		if (__instance is WitheringPresencePowerV106)
+		if (__instance is WitheringPresencePowerV106 || __instance is WitheringPresencePowerV107)
 		{
 			__result = __result.Replace(__instance.Id.Entry.ToLowerInvariant(), "withering_presence_power");
 		}
